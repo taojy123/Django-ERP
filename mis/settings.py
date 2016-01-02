@@ -88,10 +88,11 @@ WSGI_APPLICATION = 'mis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
+        'PORT': 3306,
         'NAME': 'mis',
         'USER': 'root',
-        'PASSWORD': 'root',
+        'PASSWORD': 'superman',
     }
 }
 
@@ -105,7 +106,7 @@ LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
 
 TIME_ZONE = 'Asia/Shanghai'
 
-USE_I18N = True
+USE_I18N = False
 
 USE_L10N = True
 
