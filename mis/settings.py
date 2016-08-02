@@ -92,7 +92,7 @@ DATABASES = {
         'PORT': 3306,
         'NAME': 'mis',
         'USER': 'root',
-        'PASSWORD': 'superman',
+        'PASSWORD': 'root',
     }
 }
 
